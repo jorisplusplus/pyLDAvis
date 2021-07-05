@@ -435,7 +435,7 @@ var LDAvis = function(to_select, data_or_file_name, color1, color2) {
             });
 
         svg.append("text")
-            .text("Intertopic Distance Map (via multidimensional scaling)")
+            .text("Intertopic Test Distance Map (via multidimensional scaling)")
             .attr("x", mdswidth/2 + margin.left)
             .attr("y", 30)
             .style("font-size", "16px")
